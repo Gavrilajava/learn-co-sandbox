@@ -1,0 +1,9 @@
+
+GET /projects            projects#index    READ    .all
+GET /projects/:id        projects#show     READ    .find
+GET /projects/new        projects#new      READ    .new
+POST /projects           projects#create   CREATE  .create
+GET /projects/:id/edit   projects#edit     READ    .find
+PATCH /projects/:id      projects#update   UPDATE  .update
+DELETE /projects/:id     projects#destroy  DELETE  .destroy
+
